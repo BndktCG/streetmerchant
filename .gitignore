@@ -20,3 +20,6 @@ desktop.ini
 twitch.json
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+src/store/.DS_Store
+.DS_Store
+*.env
