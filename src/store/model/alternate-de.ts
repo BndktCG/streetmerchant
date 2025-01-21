@@ -4,11 +4,11 @@ export const AlternateDe: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '.details-cart-button',
+      container: '.add-to-cart.details-cart-button.btn.btn-primary.btn-lg.d-flex.justify-content-center.tp-button.btn-season',
       text: ['In den Warenkorb'],
     },
     maxPrice: {
-      container: '.price > span:nth-child(1)',
+      container: '#tle-details-price-section > div.col.campaign-timer-price-section > div > div:nth-child(1) > span.price',
       euroFormat: true,
     },
     outOfStock: [
@@ -31,7 +31,7 @@ export const AlternateDe: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.alternate.de/html/product/1679012',
+      url: 'https://www.alternate.de/html/product/1916729',
     },
     {
       brand: 'asus',
