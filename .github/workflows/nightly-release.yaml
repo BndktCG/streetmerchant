@@ -1,8 +1,7 @@
 name: Nightly Release
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch: {}
+
 jobs:
   check_code_change:
     name: Check code change
@@ -19,6 +18,7 @@ jobs:
           if [[ $(git rev-list --after="24 hours" --first-parent HEAD) ]]; then
             echo "should_run=true" >> $GITHUB_OUTPUT
           fi
+
   build_tag_publish:
     name: Build, tag and publish Docker image
     runs-on: ubuntu-latest
@@ -41,4 +41,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: "ghcr.io/jef/streetmerchant:nightly,ghcr.io/jef/streetmerchant:${{ steps.short_sha.outputs.short_sha }}"
+          tags: "ghcr.io/bndktcg/streetmerchant:nightly,ghcr.io/bndktcg/streetmerchant:${{ steps.short_sha.outputs.short_sha }}"
