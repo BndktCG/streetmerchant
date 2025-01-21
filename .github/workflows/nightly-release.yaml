@@ -17,7 +17,6 @@ jobs:
           if [[ $(git rev-list --after="24 hours" --first-parent HEAD) ]]; then
             echo "should_run=true" >> $GITHUB_OUTPUT
           fi
-
   build_tag_publish:
     name: Build, tag and publish Docker image
     runs-on: ubuntu-latest
