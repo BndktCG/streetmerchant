@@ -5,15 +5,15 @@ export const Caseking: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '.delivery_container',
-      text: ['lagernd', 'im zulauf', 'ab'],
+      container: '.btn-main-cta',
+      text: ['lagernd', 'im zulauf', 'ab', 'in den warenkorb'],
     },
     maxPrice: {
-      container: '#buybox .article_details_price',
+      container: '.js-unit-price',
       euroFormat: true,
     },
     outOfStock: {
-      container: '.delivery_container',
+      container: '.btn-main-cta',
       text: ['unbekannt'],
     },
   },
@@ -22,8 +22,33 @@ export const Caseking: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.caseking.de/evga-geforce-rtx-2060-super-xc-ultra-gaming-8192-mb-gddr6-gcev-385.html',
+      url: 'https://www.caseking.de/apnx-v1-pc-case-midi-tower-atx-tempered-glass-wood-black/GESI-420.html',
     },
+    {
+      brand: 'zotac',
+      model: 'solid oc',
+      series: '5080',
+      url: 'https://www.caseking.de/zotac-gaming-geforce-rtx-5080-solid-oc-16384-mb-gddr7/GCZT-265.html',
+    },
+    {
+      brand: 'zotac',
+      model: 'amp extreme infinity',
+      series: '5080',
+      url: 'https://www.caseking.de/zotac-gaming-geforce-rtx-5080-solid-16384-mb-gddr7/GCZT-266.html',
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {
       brand: 'asus',
       model: 'strix oc',
