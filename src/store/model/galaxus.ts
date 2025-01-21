@@ -8,100 +8,23 @@ export const Galaxus: Store = {
       text: ['In den Warenkorb'],
     },
     maxPrice: {
-      container: '.productDetail .Z1c8',
+      container: '#pageContent > div > div.sc-329acb30-0.kuwHMG > div.sc-7a4d0cf2-0.zJjIS > div > div.sc-f092bb40-0.hSAMSM > div > div.sc-f092bb40-6.eMpmAT > span > strong > button',
       euroFormat: true,
     },
-    outOfStock: [
-      {
-        container: '.availabilityText',
-        text: ['aktuell nicht lieferbar und kein liefertermin vorhanden'],
-      },
-      {
-        container: '.availabilityText',
-        text: [
-          'der liefertermin ist beim lieferanten in abklärung und wird aktualisiert.',
-        ],
-      },
-    ],
+    outOfStock: {
+      container:
+        '#pageContent > div > div.sc-329acb30-0.kuwHMG > div.sc-7a4d0cf2-0.zJjIS > div > div.sc-f092bb40-0.hSAMSM > div > div:nth-child(3) > div.sc-376a0705-0.extended_availability_AvailabilityWrapper____kfidm > div > span > span.availabilityIconView_TextWrapper____nqnzp > div',
+      text: [
+        'Aktuell nicht lieferbar',
+      ],
+    },
   },
   links: [
     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.galaxus.de/de/product/11156643',
-    },
-    {
-      brand: 'amd',
-      model: '5600x',
-      series: 'ryzen5600',
-      url: 'https://www.galaxus.de/de/product/13987919',
-    },
-    {
-      brand: 'amd',
-      model: '5800x',
-      series: 'ryzen5800',
-      url: 'https://www.galaxus.de/de/product/13987918',
-    },
-    {
-      brand: 'amd',
-      model: '5900x',
-      series: 'ryzen5900',
-      url: 'https://www.galaxus.de/de/product/13987917',
-    },
-    {
-      brand: 'amd',
-      model: '5950x',
-      series: 'ryzen5950',
-      url: 'https://www.galaxus.de/de/product/13987916',
-    },
-    {
-      brand: 'amd',
-      model: '5950x',
-      series: 'ryzen5950',
-      url: 'https://www.galaxus.de/de/product/13987916',
-    },
-    {
-      brand: 'asrock',
-      model: 'challenger',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15816697',
-    },
-    {
-      brand: 'asrock',
-      model: 'phantom gaming oc',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15948741',
-    },
-    {
-      brand: 'asus',
-      model: 'tuf oc',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15300561',
-    },
-    {
-      brand: 'gigabyte',
-      model: 'aorus elite',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15301182',
-    },
-    {
-      brand: 'msi',
-      model: 'mech 2x oc',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15301319',
-    },
-    {
-      brand: 'sapphire',
-      model: 'nitro+ oc',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15059558',
-    },
-    {
-      brand: 'sapphire',
-      model: 'pulse',
-      series: 'rx6700xt',
-      url: 'https://www.galaxus.de/de/product/15059559',
+      url: 'https://www.galaxus.de/de/s1/product/amd-ryzen-7-5700x3d-tray-am4-3-ghz-8-core-prozessor-42743545?supplier=2705624',
     },
   ],
   name: 'galaxus',
