@@ -15,27 +15,7 @@ export const Mediamarkt: Store = {
     outOfStock: [
       {
         container: '#root',
-        text: ['Dieser Artikel ist aktuell nicht verfügbar.'],
-      },
-      {
-        container: '#root',
-        text: ['Leider keine Lieferung möglich'],
-      },
-      {
-        container: '#root',
-        text: ['Nicht verfügbar'],
-      },
-      {
-        container: '#root',
-        text: ['Dieser Artikel ist dauerhaft ausverkauft'],
-      },
-      {
-        container: '#root',
-        text: ['Dieser Artikel ist bald wieder für Sie verfügbar'],
-      },
-      {
-        container: '#root',
-        text: ['Dieser Artikel ist bald wieder verfügbar'],
+        text: ['Dieser Artikel ist aktuell nicht verfügbar.','Leider keine Lieferung möglich','Nicht verfügbar','Dieser Artikel ist dauerhaft ausverkauft','Dieser Artikel ist bald wieder für Sie verfügbar','Dieser Artikel ist bald wieder verfügbar'],
       },
     ],
   },
