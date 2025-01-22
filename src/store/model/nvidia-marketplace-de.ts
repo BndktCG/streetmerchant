@@ -1,5 +1,6 @@
 import {Store} from './store';
 
+// note that nvidia marketplace does not have seperate product pages for each item. thats why products are referenced by filters. might be unstabe
 export const NvidiaMarketplaceDE: Store = {
   currency: '€',
   labels: {
