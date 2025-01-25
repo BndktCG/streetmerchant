@@ -1,6 +1,6 @@
 FROM node:16.18.0-alpine3.16 AS builder
 
-LABEL org.opencontainers.image.source="https://github.com/jef/streetmerchant"
+LABEL org.opencontainers.image.source="https://github.com/bndktcg/streetmerchant"
 LABEL org.opencontainers.image.description="The world's easiest, most powerful stock checker"
 LABEL org.opencontainers.image.licenses="MIT"
 
