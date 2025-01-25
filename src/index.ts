@@ -82,6 +82,8 @@ export async function launchBrowser(): Promise<Browser> {
   if (config.browser.isTrusted) {
     args.push('--no-sandbox');
     args.push('--disable-setuid-sandbox');
+    args.push('--disable-blink-features=AutomationControlled');
+    args.push('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36');
   }
 
   // https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md#tips
@@ -92,6 +94,8 @@ export async function launchBrowser(): Promise<Browser> {
     args.push('--disable-setuid-sandbox');
     args.push('--headless');
     args.push('--disable-gpu');
+    args.push('--disable-blink-features=AutomationControlled');
+    args.push('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36');
     config.browser.open = false;
   }
 
