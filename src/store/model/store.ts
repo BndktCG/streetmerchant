@@ -86,6 +86,7 @@ export type Series =
 
 export type Model =
   | 'test:model'
+  | 'any'
   | 'captcha-deterrent'
   | '5600x'
   | '5800x'
