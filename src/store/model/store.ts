@@ -12,6 +12,7 @@ export type Pricing = {
 
 export type Brand =
   | 'test:brand'
+  | 'any'
   | 'captcha-deterrent'
   | 'amd'
   | 'asrock'
