@@ -24,6 +24,31 @@ export const NvidiaMarketplaceDE: Store = {
       series: 'test:series',
       url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%203070&gpu_filter=RTX%204090~2,RTX%204080%20SUPER~5,RTX%204080~2,RTX%204070%20Ti%20SUPER~27,RTX%204070%20Ti~8,RTX%204070%20SUPER~22,RTX%204070~8,RTX%204060%20Ti~13,RTX%204060~8,RTX%203070~1,RTX%203060%20Ti~2,RTX%203060~7,RTX%203050~4',
     },
+    // presumably
+    {
+      brand: 'nvidia',
+      model: 'test:model',
+      series: '5070',
+      url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205070',
+    },
+    {
+      brand: 'nvidia',
+      model: 'test:model',
+      series: '5070ti',
+      url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205070%20Ti',
+    },
+    {
+      brand: 'nvidia',
+      model: 'test:model',
+      series: '5080',
+      url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205080',
+    },
+    {
+      brand: 'nvidia',
+      model: 'test:model',
+      series: '5090',
+      url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205090',
+    },
   ],
   name: 'nvidia-marketplace-de',
 };
