@@ -27,103 +27,103 @@ export const AlzaDE: Store = {
       url: 'https://www.alza.de/hp-nvidia-rtx-a5000-24-gb-d6980781.htm?o=19'
     },
     {
-      brand: 'any',
+      brand: 'msi',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/msi-geforce-rtx-5080-16g-gaming-trio-oc-white-d12762633.htm?o=1'
     },
     {
-      brand: 'any',
+      brand: 'msi',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/msi-geforce-rtx-5080-16g-suprim-soc-d12762632.htm?o=2'
     },
     {
-      brand: 'any',
+      brand: 'msi',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/msi-geforce-rtx-5080-16g-vanguard-soc-launch-edition-d12762635.htm?o=3'
     },
     {
-      brand: 'any',
+      brand: 'msi',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/msi-geforce-rtx-5080-16g-ventus-3x-oc-white-d12762634.htm?o=4'
     },
     {
-      brand: 'any',
+      brand: 'msi',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/msi-geforce-rtx-5080-16g-ventus-3x-oc-plus-d12762631.htm?o=5'
     },
     {
-      brand: 'any',
+      brand: 'asus',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/asus-rog-astral-geforce-rtx-5080-o16g-gaming-d12766318.htm?o=6'
     },
     {
-      brand: 'any',
+      brand: 'asus',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/asus-prime-geforce-rtx-5080-o16g-d12766320.htm?o=7'
     },
     {
-      brand: 'any',
+      brand: 'gigabyte',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gigabyte-aorus-geforce-rtx-5080-master-ice-16g-d12766425.htm?o=8'
     },
     {
-      brand: 'any',
+      brand: 'gainward',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gainward-geforce-rtx-5080-phantom-gs-16g-d12764038.htm?o=9'
     },
     {
-      brand: 'any',
+      brand: 'gigabyte',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gigabyte-aorus-geforce-rtx-5080-xtreme-waterforce-wb-16g-d12766423.htm?o=11'
     },
     {
-      brand: 'any',
+      brand: 'gigabyte',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gigabyte-aorus-geforce-rtx-5080-xtreme-waterforce-16g-d12766427.htm?o=12'
     },
     {
-      brand: 'any',
+      brand: 'palit',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/palit-geforce-rtx-5080-gamerock-16g-d12764040.htm?o=13'
     },
     {
-      brand: 'any',
+      brand: 'gigabyte',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gigabyte-geforce-rtx-5080-gaming-oc-16g-d12766429.htm?o=14'
     },
     {
-      brand: 'any',
+      brand: 'gainward',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gainward-geforce-rtx-5080-phantom-16g-d12764039.htm?o=15'
     },
     {
-      brand: 'any',
+      brand: 'gigabyte',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gigabyte-geforce-rtx-5080-aero-oc-sff-16g-d12766428.htm?o=16'
     },
     {
-      brand: 'any',
+      brand: 'gigabyte',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/gigabyte-geforce-rtx-5080-windforce-oc-sff-16g-d12766424.htm?o=17'
     },
     {
-      brand: 'any',
+      brand: 'asus',
       model: 'any',
       series: '5080',
       url: 'https://www.alza.de/asus-tuf-geforce-rtx-5080-o16g-gaming-d12766319.htm?o=18'
