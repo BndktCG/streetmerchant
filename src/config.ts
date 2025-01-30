@@ -2,6 +2,7 @@ import {existsSync, readFileSync} from 'fs';
 import {banner} from './banner';
 import dotenv from 'dotenv';
 import path from 'path';
+import { series } from 'async';
 
 if (process.env.npm_config_conf) {
   if (
@@ -411,6 +412,7 @@ if (process.env.MAX_PRICE) {
 const store = {
   autoAddToCart: envOrBoolean(process.env.AUTO_ADD_TO_CART, true),
   country: envOrString(process.env.COUNTRY, 'usa'),
+  minPrice: envOrNumber(process.env.MIN_PRICE),
   maxPrice: {
     series: {
       3050: envOrNumber(process.env.MAX_PRICE_SERIES_3050),
