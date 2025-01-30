@@ -1,6 +1,6 @@
 {
   "name": "streetmerchant bndkt edition",
-  "version": "4.0.0",
+  "version": "3.10.0",
   "description": "The world's easiest, most powerful stock checker",
   "main": "src/index.ts",
   "scripts": {
