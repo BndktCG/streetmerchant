@@ -27,25 +27,25 @@ export const NvidiaMarketplaceDE: Store = {
     // presumably
     {
       brand: 'nvidia',
-      model: 'test:model',
+      model: 'founders edition',
       series: '5070',
       url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205070',
     },
     {
       brand: 'nvidia',
-      model: 'test:model',
+      model: 'founders edition',
       series: '5070ti',
       url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205070%20Ti',
     },
     {
       brand: 'nvidia',
-      model: 'test:model',
+      model: 'founders edition',
       series: '5080',
       url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205080',
     },
     {
       brand: 'nvidia',
-      model: 'test:model',
+      model: 'founders edition',
       series: '5090',
       url: 'https://marketplace.nvidia.com/de-de/consumer/graphics-cards/?locale=de-de&page=1&limit=12&gpu=RTX%205090',
     },
