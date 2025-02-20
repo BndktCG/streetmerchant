@@ -5,7 +5,7 @@ export const Caseking: Store = {
   labels: {
     inStock: {
       container: '#js-product-availability-container > div > span > span',
-      text: ['auf lager','lagernd', 'im zulauf', 'ab', 'in den warenkorb'],
+      text: ['auf lager','lagernd', 'im zulauf', 'ab', 'in den warenkorb','Vorbestellung','Auf Lager'],
       
     },
     maxPrice: {
@@ -23,7 +23,7 @@ export const Caseking: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.caseking.de/apnx-v1-pc-case-midi-tower-atx-tempered-glass-wood-black/GESI-420.html'
+      url: 'https://www.caseking.de/amd-ryzen-7-7800x3d-5.0-ghz-raphael-am5-boxed/HPAM-257.html'
     },
     {
       brand: 'zotac',
@@ -270,6 +270,108 @@ export const Caseking: Store = {
       model: 'any',
       series: '5090',
       url: 'https://www.caseking.de/inno3d-geforce-rtx-5090-ichill-frostbite-32768mb-gddr7/GCI3-291.html'
+    },
+    {
+      brand: 'asus',
+      model: 'any',
+      series: '5090',
+      url: 'https://www.caseking.de/asus-tuf-geforce-rtx-5090-32768-mb-gddr7/GCAS-653.html'
+    },
+    {
+      brand: 'asus',
+      model: 'any',
+      series: '5090',
+      url: 'https://www.caseking.de/asus-rog-astral-geforce-rtx-5090-oc-edition-32768-mb-gddr7/GCAS-650.html'
+    },
+    {
+      brand: 'gigabyte',
+      model: 'any',
+      series: '5090',
+      url: 'https://www.caseking.de/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-wb-32g-32768-mb-gddr7/GCGB-540.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-16384-mb-gddr7-/GCGB-556.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/asus-prime-geforce-rtx-5070-ti-16384-mb-gddr7-/GCAS-657.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/msi-geforce-rtx-5070-ti-gaming-trio-oc-plus-16384-mb-gddr7-/GCMC-406.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/asus-prime-geforce-rtx-5070-ti-oc-edition-16384-mb-gddr7-/GCAS-656.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-16384-mb-gddr7-/GCGB-553.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/gigabyte-aorus-geforce-rtx-5070-ti-master-16g-16384-mb-gddr7-/GCGB-552.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/asus-tuf-geforce-rtx-5070-ti-oc-edition-16384-mb-gddr7-/GCAS-654.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-sff-16g-16384-mb-gddr7-/GCGB-555.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/asus-tuf-geforce-rtx-5070-ti-16384-mb-gddr7-/GCAS-655.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/msi-geforce-rtx-5070-ti-ventus-3x-oc-16384-mb-gddr7-/GCMC-407.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/gigabyte-geforce-rtx-5070-ti-gaming-oc-16g-16384-mb-gddr7-/GCGB-554.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/zotac-gaming-geforce-rtx-5070-ti-solid-core-16384-mb-gddr7-/GCZT-273.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-16384-mb-gddr7-/GCGB-557.html'
+    },
+    {
+      brand: 'any',
+      model: 'any',
+      series: '5070ti',
+      url: 'https://www.caseking.de/zotac-gaming-geforce-rtx-5070-ti-solid-oc-16384-mb-gddr7-/GCZT-272.html'
     }
   ],
 };

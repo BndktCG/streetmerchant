@@ -504,7 +504,7 @@ async function isItemInStock(
 
     link.price = await getPrice(page, store.labels.maxPrice, baseOptions);
 
-    if ((link.price != null && link.price > maxPrice && maxPrice > 0) || (link.price != null && link.price < 500)) {
+    if ((link.price != null && link.price > maxPrice && maxPrice > 0) || (link.price != null && link.price < 450)) {
       logger.info(Print.maxPrice(link, store, maxPrice, true));
       return false;
     }
