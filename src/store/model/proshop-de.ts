@@ -4,8 +4,8 @@ export const ProshopDE: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: 'button[data-form-action="addToBasket"]',
-      text: ['bestellen'],
+      container: '#add-to-cart-form > div.row.border-bottom > div > span > strong',
+      text: ['bestellen', 'Auf Lager'],
     },
     maxPrice: {
       container:
@@ -23,7 +23,7 @@ export const ProshopDE: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.proshop.de/Grafikkarte/ASUS-GeForce-RTX-5070-Ti-Prime-16GB-GDDR7-RAM-Grafikkarte/3331054'
+      url: 'https://www.proshop.de/Handys-Smartphones/ASUS-ROG-Phone-9-Pro-Edition-1TB24GB-Phantom-Black/3316756'
     },
     {
       brand: 'any',
